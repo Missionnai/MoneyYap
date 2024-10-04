@@ -1,0 +1,52 @@
+name: moneyyap
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  file_picker: ^8.0.6
+  http: ^1.2.2
+  random_string: ^2.3.1
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/images/logo.png # Ensure this path is correct and the file exists
+    - assets/images/Moov.jpg
+    - assets/images/Mtn.png
+    - assets/images/Orange.jpg
+    - assets/images/Wave.png
+    - assets/images/tresormoney.png
+    - assets/images/CIE.jpg
+    - assets/images/CANAL.png
+    - assets/images/SODECI.png
+    - assets/images/Transhcash.png
+    - assets/images/pcs.jpg
+    - assets/images/1xbet.png
+    - assets/images/Betwinner.jpg
+    - assets/images/ECobank.png
+    - assets/images/WU.png
+    - assets/images/Wari.jpg
+    - assets/images/Djamo.png
+    - assets/images/Push.png
+    - assets/images/Orange Money.png
+    - assets/images/Moov Money.jpeg
+    - assets/images/Mtn Money.png
+
+
+  
+  uses-material-design: true
